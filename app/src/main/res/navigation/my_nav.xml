@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fiirstFragment">
+
+    <fragment
+        android:id="@+id/fiirstFragment"
+        android:name="com.ezy.bottomnavigation.FiirstFragment"
+        android:label="fragment_fiirst"
+        tools:layout="@layout/fragment_fiirst" />
+    <fragment
+        android:id="@+id/secondFraqment"
+        android:name="com.ezy.bottomnavigation.SecondFraqment"
+        android:label="fragment_second_fraqment"
+        tools:layout="@layout/fragment_second_fraqment" />
+    <fragment
+        android:id="@+id/thirdFraqment"
+        android:name="com.ezy.bottomnavigation.ThirdFraqment"
+        android:label="fragment_third_fraqment"
+        tools:layout="@layout/fragment_third_fraqment" />
+</navigation>
